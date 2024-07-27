@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Design</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">VM</div>
+        <div class="logo-text">Portfolio Website</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#homelink">Home</a>
+          </li>
+          <li>
+            <a href="#skillslink">Skills</a>
+          </li>
+          <li>
+            <a href="#projectlinks">Projects</a>
+          </li>
+          <li>
+            <a href="mailto:vaishnavisudha111@gmail.com" class="button">Contact Me</a>
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+          <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+          </svg>
+        </a>
+      </nav>
+    </header>
+
+    
+    <main>
+      <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="./videos/145040-785786195_tiny.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+      </div>
+      
+      <section class="hero container" id="homelink">
+        <div class="hero-blue">
+          <div>
+            <h1><small>Hi I'm</small>
+              Vaishnavi Mishra
+            </h1>
+            <p>
+              I am Vaishnavi Mishra, a third-year undergraduate pursuing a Bachelor of Technology in Computer Science Engineering at Guru Govind Singh Indraprastha University. With a strong foundation in web development, I have hands-on experience in front-end and back-end technologies, including HTML, CSS, JavaScript, and Node.js. My technical skills are complemented by proficiency in Java, C++, C, and MySQL. 
+              <span> My portfolio includes a range of projects, from a wking website for an aviation to a YouTube clone, all of which are available on my GitHub. In addition to this I also have a keen interest in Photography, as a result I have learned various editing softwares.
+
+              
+
+              </span>
+
+
+            </p>
+            <div class="call-to-action">
+              <a href="https://drive.google.com/drive/folders/1l5N7tonuOS8YDGZME9RTl5JC4omRqKal?usp=drive_link" class="button black">
+                View Resume
+              </a>
+              <a href="mailto:vaishnavisudha111@gmail.com" class="button white">
+                Contact Me
+              </a>
+              <div class="social-links">
+                <a href="https://www.instagram.com/vaishnaviii_ii/">
+                  <img src="./Images/instagram.png" alt="Instagram" width="30">
+                </a>
+                <a href="www.linkedin.com/in/vaishnavi-mishra-b17ba6256">
+                  <img src="./Images/linkedin.png" alt="LinkedIn" width="30">
+                </a>
+                <a href="https://github.com/VaishnaviiMishra">
+                  <img src="./Images/github.png" alt="GitHub" width="30">
+                </a>
+              </div> 
+            </div>
+          </div>
+          
+        </div>
+        <div class="hero-yellow">
+          <img src="./Images/file (4).png" alt="Vaishnavi Mishra" width="80%"/>
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./Images/html_1051277.png" alt="html" width="120"/>
+            <img src="./Images/cssss.png" alt="css" width="120"/>
+            <img src="./Images/js_5968292.png" alt="javascript" width="120"/>
+            <img src="./Images/cpp.png" alt="cpp" width="120"/>
+            <img src="./Images/java_226777.png" alt="java" width="120"/>
+            <img src="./Images/mysql_919836.png" alt="sql" width="120"/> 
+            <img src="./Images/photoshop_5968520.png" alt="Ps" width="120"/>
+            <img src="./Images/photoshop-lightroom_5968514.png" alt="lr" width="120"/>
+            <img src="./Images/figma_5968705.png" alt="figma" width="120"/>
+            <img src="./Images/html_1051277.png" alt="html" width="120"/>
+            <img src="./Images/cssss.png" alt="css" width="120"/>
+            <img src="./Images/js_5968292.png" alt="javascript" width="120"/>
+            <img src="./Images/cpp.png" alt="cpp" width="120"/>
+            <img src="./Images/java_226777.png" alt="java" width="120"/>
+            <img src="./Images/mysql_919836.png" alt="sql" width="120"/> 
+            <img src="./Images/photoshop_5968520.png" alt="Ps" width="120"/>
+            <img src="./Images/photoshop-lightroom_5968514.png" alt="lr" width="120"/>
+            <img src="./Images/figma_5968705.png" alt="figma" width="120"/>
+          </div>
+        </div>
+      </section>
+      <section class="skills container" id="skillslink">
+        <h2>
+          
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>NodeJS</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+              <li>Java</li>
+              <li>C++</li>
+              <li>MySQL</li>
+            </ul>
+            <h3>Design Tools</h3>
+            <ul>
+              <li>Photoshop</li>
+              <li>Davinci Resolve</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>I have successfully contributed to the online presence of Flocentra Aviation Private Limited by developing their official website and creating various marketing materials. My portfolio includes a range of projects, from a YouTube clone to a college management system, all of which are available on my GitHub.</p>
+            <p>In addition to my technical expertise, I have demonstrated leadership and organizational abilities as the Vice-President of Phrenics (Photography and Videography Society) and as a crew member of the Google Development Student Club.</p>
+            
+          </div>
+        </div>
+      </section>
+      <section class="work-experience container">
+        <h2>
+          <small>Recent</small>
+          Work Experience
+        </h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img src="./Images/WhatsApp Image 2024-07-27 at 10.52.36.jpeg" alt="workplace1" width="100%"/>
+                <figcaption>Flocentra Aviation</figcaption>
+              </div>
+            </figure>
+            <h3>Flocentra Aviation</h3>
+            <div>2024</div>
+            <p>
+              FRONTEND AND DESIGN SUPPORT : Contributed to the establishment of the company's online presence by developing their official website.
+            	Designed and created various marketing materials, including business cards and presentation templates.
+            </p>
+            
+          </article>
+          
+        </div>
+      </section>
+      <section class="bento container" id="projectlinks">
+        <h2>
+          <small>
+            Previous
+          </small>
+          Completed Projects
+        </h2>
+        <div class="bento-grid">
+          <a href="https://vaishnaviimishra.github.io/PortfolioWebsite/" class="bento-item">
+            <img src="./Images/ss/Screenshot 2024-07-23 111233.png" alt="workplace2" width="100%"/>
+            
+          </a>
+          <a href="https://vaishnaviimishra.github.io/YouTube-Clone/Index.html" class="bento-item">
+            <img src="./Images/ss/Screenshot 2024-07-23 111604.png" alt="workplace2" width="100%"/>          
+          </a>
+          <a href="https://github.com/VaishnaviiMishra" class="bento-item">
+            <img src="./Images/ss/Screenshot 2024-07-23 112427.png" alt="workplace2" width="100%"/>           
+          </a>
+          <a href="https://github.com/VaishnaviiMishra/Drum-Kit.git" class="bento-item">
+            <img src="./Images/ss/Screenshot 2024-07-23 111406.png" alt="workplace2" width="100%"/>          
+          </a>
+          <a href="https://github.com/VaishnaviiMishra/Simon-s-Game.git" class="bento-item">
+            <img src="./Images/ss/Screenshot 2024-07-23 111640.png" alt="workplace2" width="100%"/>           
+          </a>
+          <a href="https://vaishnaviimishra.github.io/FlocentraAviationWebsite/" class="bento-item">
+            <img src="./Images/ss/Screenshot 2024-07-23 111312.png" alt="workplace2" width="100%"/>          
+          </a>
+        </div>
+      </section>
+    
+      <section class="chatbot container">
+        <h2>
+          <small>
+            Talk To Me
+          </small>
+          chatBot
+        </h2>
+        <div class="chatbot-blue">
+          <div class="chat-info">
+            <h3>AI chatbot</h3>
+            <p>Chatbot to demonstrate my skills</p>
+            <p>Only for demostration person therefore it won't be able to answer all your questions</p>
+            <a href="https://drive.google.com/drive/folders/1l5N7tonuOS8YDGZME9RTl5JC4omRqKal?usp=drive_link" class="button black">Download Resume</a>
+
+          </div>
+          <div class="chat-box">
+            <div class="scroll-area">
+              <ul id="chat-log">
+                <li>
+                  <span class="avatar bot">
+                    AI
+                  </span>
+                  <div class="message">
+                    This is an manually coded chatbot
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar user">
+                    user
+                  </span>
+                  <div class="message">
+                      Welcome to My Porfolio
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="chat-message">
+              <input type="text" placeholder="Hey Vaishnavi, what are you best at?">
+              <button class="button black" >Send</button>
+
+            </div>
+          </div>
+        </div>
+      </section>   
+
+      <section class="container">
+        <h2>
+          <small>
+            Others
+          </small>
+          EXTRA-CURRICULAR ACTIVITIES
+        </h2>
+      </section>
+
+      <div class="cardsscroll container">
+        <ul id="cards">
+          <li class="card" id="card1">
+            <div class="card-body">  
+              
+              <img src="./Images/Sticker-06.webp" width="33%" class="cardimage" />
+              <div class="cardtecxt">
+                <p>
+                  Organized and attended events and workshops across various engineering disciplines. Contributed to the club's growth by coordinating with peers and professionals.
+                </p>  
+
+              </div>
+                        
+                    
+            </div>
+          </li>
+          <li class="card" id="card2">
+            <div class="card-body">
+              
+              <img src="./Images/PhrenicsLogo.png" width="40%"  />
+              <div class="cardtecxt">
+              
+                <p>Demonstrated strong leadership and organizational   skills in managing society activities.Participated in various competitions, photo walks, and workshops. Proficient in software tools like Lightroom and DaVinci Resolve.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="card" id="card3">
+            <div class="card-body">
+              
+              <img src="./Images/WAC Logo (blk) (1).png" width="25%" class="cardimage" />
+              <div class="cardtecxt">  
+              
+                <p>
+                  Managed social media presence and promoted society activities. Participated in competitions, photo walks, and workshops. Skilled in using Lightroom and DaVinci Resolve for editing and post-production.
+
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="card" id="card4">
+            <div class="card-body">
+              
+              <img src="./Images/images.jpg" width="34%" class="cardimage" />
+              <div class="cardtecxt">  
+              
+                <p>
+                  Led the department's efforts in organizing and executing tasks and events during the college fest. Showcased effective teamwork and event management skills.
+
+                  
+                </p>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+                          
+    </main> 
+  </body>
+</html>
