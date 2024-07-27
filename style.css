@@ -767,6 +767,7 @@ h3{
 	align-items: center;
 	transition: all 0.5s;
   @media (max-width:768px) {
+    display: flex;
     flex-direction: column;
     
   }
