@@ -666,12 +666,21 @@ h3{
         display: flex;
         margin-top: 15px;
         gap: 15px;
+        
+        @media(max-width:480px){
+          flex-direction: column;
+        }
         input{
           border-radius: 10px;
           flex: 1;
           padding: 15px;
           border: 1px solid transparent;
           background-color: var(--base-100);
+          @media(max-width:480px){
+            padding: 8px;
+          }
+          
+
           &:hover{
             outline: none;
             background-color: white;
@@ -683,9 +692,7 @@ h3{
             border: 1px solid var(--base-100);
           }
 
-          @media(max-width:480px){
-            flex-direction: column;
-          }
+          
         }
       }
 
