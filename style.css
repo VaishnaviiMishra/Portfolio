@@ -411,13 +411,15 @@ h3{
       ul{
         list-style-type: none;
         gap: 10px;
-        margin-right: 100px;
+        margin-right: 80px;
         margin-bottom: 20px;
         li{
           display: inline-block;
           background-color: var(--blue-100);
-          padding: 10px 20px;
-          border-radius: 15px;
+          padding: 5px 10px;
+          border-radius: 5px;
+          margin: 5px;
+
         }
 
       }
